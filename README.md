@@ -84,5 +84,5 @@ Pending to Do
 **安装前提条件**
  * 最好安装brew或port等自动安装包的工具
  * 使用protoc需要以下libs
-    >autoconf automake libtool 以及大家都会有的xcode自带的command line tool
- * 
+ 
+ >autoconf automake libtool 以及大家都会有的xcode自带的command line tool
