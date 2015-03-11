@@ -39,10 +39,10 @@ message {
 ```
 
 
-Why we call this mechanism is so pretty high performance
+How was data encoded
 -------------------------------
-
-**How was data encoded**
+How was data encoded
+**Why we call this mechanism is so pretty high performance**
 
 
 **以varint形式存储数据的byte,除了最后的byte,byte order都是msb的,最高位标识后面的byte**
