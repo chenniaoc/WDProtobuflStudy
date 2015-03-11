@@ -6,3 +6,6 @@ studying usage for native IM C/S message data inter-communication
  * 采用IDL(Interface Definition Language)
  * High Performance to de/serialisation
  * Flexible Extension Ability
+
+
+**Very very simple Example here**
