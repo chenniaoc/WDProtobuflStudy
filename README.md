@@ -9,3 +9,5 @@ studying usage for native IM C/S message data inter-communication
 
 
 **Very very simple Example here**
+
+[demo1]:https://github.com/chenniaoc/WDProtobuflStudy/raw/master/ex1.png
