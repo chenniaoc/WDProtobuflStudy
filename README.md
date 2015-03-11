@@ -66,3 +66,12 @@ Why we call this mechanism is so pretty high performance
 *因为least significant group first,再做个交换:0000010 0000000 得256*
 
 
+
+
+Pending to Do
+--------------
+**Plan A**
+ >基于google protobuf 提供的编译器后端,实现⼀一个符合微店数据转换的objc编译器前端程序。
+ 
+**Plan B**
+ >在微店工程中加入intermediate exchange 程序,做WDDataDef与Protobuf stream的转换。
