@@ -19,6 +19,24 @@ studying usage for native IM C/S message data inter-communication
 IDL 常用语法
 我是一个json的message 数据
 
+```
   {
-    message_id:4444, sender:’hexinyu’, receiver:’wangli’, content:’Let’s go to the gym’ attachments:[‘a1’,a2’]
+    message_id:4444,
+    sender:’hexinyu’, 
+    receiver:’wangli’, 
+    content:’Let’s go to the gym’ 
+    attachments:[‘a1’,a2’]
   }
+```
+
+我是proto
+```
+message {
+required int32 message_id = 1; 
+required string sender = 2; 
+required string receiver = 3;
+required string content = 4; 
+repeated string attachments = 5
+}
+```
+
