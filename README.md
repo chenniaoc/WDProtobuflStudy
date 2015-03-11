@@ -86,3 +86,7 @@ Pending to Do
  * 使用protoc需要以下libs
  
  >autoconf automake libtool 以及大家都会有的xcode自带的command line tool
+
+**google 原生protoc**
+[offical google protobuf 2.6.0](https://github.com/google/protobuf/releases/tag/v2.6.0) 推荐使用这个,比较大众且稳定
+
