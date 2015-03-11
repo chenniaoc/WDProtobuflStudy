@@ -53,15 +53,16 @@ Why we call this mechanism is so pretty high performance
 
 
 
-decimal: 2
-bin:0000 0010 一个字节就够了,所以msb没有用。
+*decimal: 2*
+
+*bin:0000 0010(一个字节就够了,所以msb没有用)*
 
 
-decimal:256 
-bin:10000000 00000010 msb告知后面的byte也是当前的value。
+*decimal:256 *
+*bin:10000000 00000010 msb告知后面的byte也是当前的value。*
 
-每个byte取低7位:0000000 0000010
+*每个byte取低7位:0000000 0000010*
 
-因为least significant group first,再做个交换:0000010 0000000 得256
+*因为least significant group first,再做个交换:0000010 0000000 得256*
 
 
