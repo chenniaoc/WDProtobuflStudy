@@ -88,5 +88,15 @@ Pending to Do
  >autoconf automake libtool 以及大家都会有的xcode自带的command line tool
 
 **google 原生protoc**
+
 [offical google protobuf 2.6.0](https://github.com/google/protobuf/releases/tag/v2.6.0) 推荐使用这个,比较大众且稳定
 
+
+**objc protoc编译插件**
+[alexeyxo/protobuf-objc](https://github.com/alexeyxo/protobuf-objc)
+
+
+It's weath learning
+-------------------
+* https://developers.google.com/protocol-buffers/docs/proto proto描述语言详细教程
+* https://developers.google.com/protocol-buffers/docs/encoding 讲解内部数据构成
