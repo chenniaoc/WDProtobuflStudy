@@ -16,9 +16,7 @@ studying usage for native IM C/S message data inter-communication
 
 **IDL 常用语法**
 
-IDL 常用语法
-我是一个json的message 数据
-
+* 我是一个json的message 数据
 ```
   {
     message_id:4444,
@@ -29,14 +27,14 @@ IDL 常用语法
   }
 ```
 
-我是proto
+* 我是proto
 ```
 message {
-required int32 message_id = 1; 
-required string sender = 2; 
-required string receiver = 3;
-required string content = 4; 
-repeated string attachments = 5
+    required int32 message_id   = 1; 
+    required string sender      = 2; 
+    required string receiver    = 3;
+    required string content     = 4; 
+    repeated string attachments = 5
 }
 ```
 
