@@ -95,7 +95,7 @@ Pending to Do
 [alexeyxo/protobuf-objc](https://github.com/alexeyxo/protobuf-objc)
 
 
-It's weath learning
+It's worth learning
 -------------------
 * https://developers.google.com/protocol-buffers/docs/proto proto描述语言详细教程
 * https://developers.google.com/protocol-buffers/docs/encoding 讲解内部数据构成
