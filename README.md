@@ -45,11 +45,11 @@ Why we call this mechanism is so pretty high performance
 **How was data encoded**
 
 
-以varint形式存储数据的byte,除了最后的byte,byte order都是msb的,最高位标识后面的byte
+**以varint形式存储数据的byte,除了最后的byte,byte order都是msb的,最高位标识后面的byte**
 
-是否也是属于当前key的value构成数据。
+**是否也是属于当前key的value构成数据。**
 
-最低7位存储数据,组合在一起以后需要前后跌倒每个 byte(因为最低位在组合的最前面)。
+**最低7位存储数据,组合在一起以后需要前后跌倒每个 byte(因为最低位在组合的最前面)。**
 
 
 
